@@ -1,85 +1,100 @@
-<p align="center">
-  <image
-  src="https://img.shields.io/github/languages/count/<your-nick>/<repo-name>"
-  />
-  <image
-  src="https://img.shields.io/github/languages/top/<your-nick>/<repo-name>"
-  />
-  <image
-  src="https://img.shields.io/github/last-commit/<your-nick>/<repo-name>"
-  />
-  <image
-  src="https://img.shields.io/github/watchers/<your-nick>/<repo-name>?style=social"
-  />
-</p>
-
 # 📋 Indíce
 
-- [Proposta / objetivos ](#id01)
+- [Proposta](#id01)
   - [O desafio](#id01.1)
-  - [O que eu aprendi](#id01.2)
+  - [Requisitos](#id01.2)
+    - [Requisitos funcionais ](#id01.2.1)
+    - [Requisitos não funcionais ](#id01.2.2)
+    - [Requisitos não obrigatórios](#id01.2.3)
 - [Screenshots](#id02)
-- [Links](#id03)
-- [Feito com](#id04)
+- [O que aprendi](#id03)
+- [Mão a obra...](#id04)
 - [Pré-requisitos](#id05)
 - [Procedimentos de instalação](#id06)
-- [Autor](#id07)
+- [Desafios similares e dicas ](#id07)
+- [Autor](#id08)
 
-# 🚀 Proposta / objetivos <a name="id01"></a>
+# 🚀 Proposta <a name="id01"></a>
+
+Assim como Linus Torvalds disse "Falar é fácil, me mostre o código". Nós desenvolvedores nunca vamos aprender a programar e desenvolver software sem efetivamente codar, é como tentar aprender a andar de bicicleta lendo livros e vendo vídeos.
+
+E foi assim que essa abordagem nasceu, um roadmap baseado em projetos. A ideia em seu princípio é simples, essa é uma demanda, tente encarar como um desafio técnico e completá-lo em até 7 dias.
+
+Ao completar, não esqueça de publicar no linkedin e adicionar #handsOnRoadmap
 
 ## :trophy: O desafio <a name="id01.1"></a>
 
-## :pushpin: O que eu aprendi <a name="id01.2"></a>
+<br />
+
+Este é o primeiro projeto de react desse roadmap, e a prosposta é mostrar para o mundo que você está criando códigos e aplicações com react.
+
+Para esse primeiro projeto sua missão é criar uma aplicação de linktree hub, em que você vai adicionar links, podendo adicionar seus links de redes sociais, gitHub, linkedin e demais pontos que achar importante.
+
+<br />
+
+## :dart: Os requisitos<a name="id01.2"></a>
+
+### :dart: Requisitos funcionais <a name="id01.2.1"></a>
+
+<br />
+
+Sua aplicação deve ter:
+
+<br />
+
+- Os diversos links que você quer compartilhar
+- Uma foto sua.
+
+### :dart: Requisitos não funcionais <a name="id01.2.2"></a>
+
+<br />
+
+É obrigatório a utilização de:
+
+- ReactJs
+- fazer deploy
+
+<br />
+
+### :pushpin: Requisitos não obrigatórios <a name="id01.2.3"></a>
+
+<br />
+
+Você será bem avaliado se usar:
+
+<br />
+
+- usar HTML semântico, como tags main, section...
+- usar responsividade
+- organizar e dividir bem os arquivos
+- Componentizar e separar bem o que achar que deve
+- Usar typeScript
+
+<br />
 
 # :camera_flash: Screenshots <a name="id02"></a>
 
-## :iphone: Mobile design
+<br />
 
-<p  align="center">
-  <img width="300px" src="./presentation/mobile.png" align="center"></img>
-</p>
+## :iphone: Mobile design
 
 ## :iphone: Tablets design
 
-<p  align="center"><img width="420px"  src="./presentation/tablet.png" align="center"></img></p>
-
 ## :desktop_computer: Desktop design
 
-<p  align="center"><img width="720px" src="./presentation/desktop.png" align="center"></img></p>
+# :heavy_check_mark: O que aprendi <a name="id03"></a>
 
-## 🥇 result of my work
+# 🛠 Mão a obra... <a name="id04"></a>
 
-<p  align="center"><img width="720px" src="./presentation/myWork.gif" align="center"></img></p>
+Você pode forkar esse projeto e reutilizar o readme e estrutura, mas também se sinta livre para mudar ela ou mesmo criar a sua.
 
-<br />
-
-# :dart: Links <a name="id03"></a>
-
-<br />
-
-- My figma design: [Figma](https://www.figma.com/)
-- any documentation (notion, postman...): [doc](https://www.notion.so/)
-
-<br />
-
-# 🛠 Feito com <a name="id04"></a>
-
-<br />
-
-- Mobile-first workflow
-- [React](https://reactjs.org/)
-- [Styled components](https://styled-components.com)
-
-<br />
-
-# ☑️ Pré-requisitos <a name="id05"></a>
+# ☑️ Pré-requisitos para rodar <a name="id05"></a>
 
 <br />
 
 - [x] Editor de código de sua preferência (recomendado VS code)
 - [x] Git
-- [x] Gerenciador de pacotes Yarn ou NPM
-- [x] ...qualquer outro requisito
+- [x] ?
 
 <br />
 
@@ -90,26 +105,37 @@
 Clone este repositório usando o comando:
 
 ```bash
-git clone https://github.com/<your-nick>/<repo-name>.git
+git clone https://github.com/<meu_user>/<my-repo>.git
 ```
-
-Na pasta do projeto instale as dependências com uso do npm ou yarn
 
 ```bash
-npm install
-
-ou
-
-yarn install
+#processos adicionais aqui
 ```
 
 <br />
 
-# :sunglasses: Autor <a name="id07"></a>
+# 👨🏾‍💻 Desafios similares e dicas <a name="id07"></a>
+
+Antes ou depois de realizar esse desafio, você pode pegar desafios parecidos do front-end mentor ou similares. Isso te ajuda a fixar e melhorar. Vou deixar alguns a seguir, pode te ajudar a se inspirar.
+
+O segredo aqui é fazer modelos parecidos até ganhar algum conforto com fazer algo com essas técnicas e esse modelo de desafio, então quem sabe pegar outros mais difíceis.
+
+[Order summary component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
+
+<br>
+
+[NFT preview card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
+
+<br>
+
+Você também pode usar o dribbble para se inspirar.
+
+[Dribbble](https://dribbble.com)
+
+# :sunglasses: Autor <a name="id08"></a>
 
 <br />
 
-- Personal Page - [your-name](your-url)
-- Frontend Mentor - [your-page](your-url)
-- Instagram - [your-@](your-url)
-- GitHub - [your-nick](your-url)
+- Linkedin - [Jean Carlos De Meira](https://www.linkedin.com/in/jeanmeira/)
+- Instagram - [@jean.meira10](https://www.instagram.com/jean.meira10/)
+- GitHub - [JCDMeira](https://github.com/JCDMeira)
