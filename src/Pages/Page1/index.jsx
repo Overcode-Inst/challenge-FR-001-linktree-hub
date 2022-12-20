@@ -3,7 +3,7 @@ import React from 'react';
 import './styles';
 
 function Page1() {
-  return <S.Wrapper />;
+  return <div />;
 }
 
 export default Page1;
